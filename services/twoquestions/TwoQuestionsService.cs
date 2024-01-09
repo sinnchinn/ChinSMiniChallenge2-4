@@ -8,7 +8,7 @@ public class TwoQuestionsService : ITwoQuestionsService
 
     public string TwoQuestions(string userName, string wakeUpTime)
     {
-        userInput = $"Your name is {userName} and you woke up at {wakeUpTime}";
+        userInput = $"Your name is {userName} and you woke up at {wakeUpTime}.";
         return userInput;
     }
 }

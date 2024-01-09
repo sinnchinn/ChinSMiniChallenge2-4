@@ -12,15 +12,15 @@ public class GreaterOrLessService : IGreaterOrLessService
         {
             if (realNum1 > realNum2)
             {
-                return $"{realNum1} is greater than {realNum2}";
+                return $"{realNum1} is greater than {realNum2}. {realNum2} is less than {realNum1}.";
             }
             else if (realNum1 < realNum2)
             {
-                return $"{realNum1} is less than {realNum2}";
+                return $"{realNum1} is less than {realNum2}. {realNum2} is greater than {realNum1}.";
             }
             else
             {
-                return $"{realNum1} and {realNum2} are equal";
+                return $"{realNum1} and {realNum2} are equal to each other.";
             }
         }
         else

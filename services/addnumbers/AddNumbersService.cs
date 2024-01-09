@@ -13,7 +13,7 @@ public class AddNumbersService : IAddNumbersService
         if(isTrue == true && isTrue2 == true)
         {
             total = realFirstNum + realSecondNum;
-            return $"{realFirstNum} plus {realSecondNum} equals {total}";
+            return $"{realFirstNum} plus {realSecondNum} equals {total}.";
         } else {
             return "those are not numbers!";
         }
