@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ChinSMiniChallenge2-4.props" />
+</Project>

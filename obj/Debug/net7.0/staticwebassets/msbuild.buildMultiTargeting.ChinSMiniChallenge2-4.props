@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ChinSMiniChallenge2-4.props" />
+</Project>
